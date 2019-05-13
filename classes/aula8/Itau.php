@@ -1,9 +1,9 @@
 <?php
 
-include_once 'classes/aula8a/Banco.php';
+include_once 'classes/aula8/Banco.php';
 
-class Bradesco extends Banco {
-    
+class Itau extends Banco {
+
    public function Sacar($valor){
        $this->saldo -= $valor;
        echo "Sacou $valor <hr>";
@@ -13,5 +13,5 @@ class Bradesco extends Banco {
        $this->saldo += $valor; 
        echo "Depositou $valor <hr>";
    }
-   
+
 }

@@ -5,5 +5,4 @@ interface Crud {
     public function read();
     public function update($data);
     public function delete();
-    
 }

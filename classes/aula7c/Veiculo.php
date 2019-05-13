@@ -13,4 +13,8 @@ class Veiculo {
 	echo "<p>Parou</p>";
     }
 
+    public function mostrarAcao(){
+        $this->Andar();
+    }
+    
 }

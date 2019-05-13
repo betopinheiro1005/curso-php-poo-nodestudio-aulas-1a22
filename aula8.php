@@ -1,7 +1,7 @@
 <?php
 
-include_once 'classes/aula8a/Banco.php';
-include_once 'classes/aula8a/Itau.php';
+include_once 'classes/aula8/Banco.php';
+include_once 'classes/aula8/Itau.php';
 
 $itau = new Itau();
 $itau->setSaldo(1000);
